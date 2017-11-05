@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "target": "es6",
+      "rootDir": "./api",
+      "outDir": "bin",
+      "module": "commonjs",
+      "removeComments": false,
+      "watch": true
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "coverage"
+  ]
+}
